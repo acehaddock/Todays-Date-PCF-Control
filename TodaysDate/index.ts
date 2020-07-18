@@ -39,7 +39,8 @@ export class TodaysDate implements ComponentFramework.StandardControl<IInputs, I
 		// Add code to update control view
 		this._context=context;
 		let d= new Date();
-		this._labelElement.innerHTML=d.toDateString();
+		this._labelElement.innerHTML
+//=d.toDateString();
 	}
 
 	/** 
